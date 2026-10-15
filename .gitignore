@@ -1,0 +1,24 @@
+# Секретні дані
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Середовище розробки
+.vscode/
+.idea/
+
+# Логи
+*.log
+
+# Системні файли
+.DS_Store
+Thumbs.db
+.streamlit/secrets.toml
